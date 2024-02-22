@@ -14,18 +14,23 @@ const Navbar = () => {
                 distinctive pieces.
               </p>
               <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <button
-                  type="button"
-                  className="btn btn-outline-info btn-lg px-2 me-sm-3 fw-bold"
-                >
-                  <Link to="/">Home</Link>
-                </button>
-                <button
-                  type="button"
-                  className="btn btn-outline-info btn-lg px-2 me-sm-3 fw-bold"
-                >
-                  <Link to="/products">Product</Link>
-                </button>
+                <Link to="/">
+                  <button
+                    type="button"
+                    className="btn btn-outline-info btn-lg px-2 me-sm-3 fw-bold"
+                  >
+                    Home
+                  </button>
+                </Link>
+
+                <Link to="/products">
+                  <button
+                    type="button"
+                    className="btn btn-outline-info btn-lg px-2 me-sm-3 fw-bold"
+                  >
+                    Product
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
